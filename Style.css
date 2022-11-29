@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+
+   --text-primary: #b6b6b6;
+   --text-secondary: #ececec;
+   --bg-primary: #23232e;
+   --bg-seondary: #141418;
+   --bg-soo: rgb(174, 0, 255);
+
+   font-family: "tahoma, sans-serif, Sagoe UI";
+   
+   
+}
+
+img{
+    width: 100px;
+    position: fixed;
+    right: 200px;
+    top: 600px;
+  
+}
+
+.content{
+    
+    background: linear-gradient(#141418,#23232e);
+  
+   
+   
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.method h4{
+  
+    color: white;
+    font-weight: 600;
+    
+    text-shadow: 0px 2px 2px red;
+
+}
+
+input[type="radio"]{
+    cursor: pointer;
+    accent-color: yellow;
+  
+  
+    
+
+}
+
+
+
+
+
+label{
+    color: white;
+    cursor: pointer;
+    
+}
+
+label:hover{
+    cursor: pointer;
+    font-size: large;
+    
+  
+    text-shadow: 5px 5px 10px whitesmoke;
+    cursor: pointer;
+}
+
+.method{
+    position: absolute;
+    top: 20px;
+    left: 46%;
+}
+.mbox{
+    position: relative;
+    background: #141418;
+    width: 1200px;
+    height: 150px;
+    top: 30px;
+    left: 8%;
+
+    box-shadow: 0px 5px 20px black;
+ 
+}
+
+.Tbox{
+    position: relative;
+    background: #141418;
+    width: 1200px;
+    height: 220px;
+    top: 70px;
+    left: 8%;
+    box-shadow: 0px 5px 20px black;
+
+ 
+}
+
+
+.rbox{
+    position: relative;
+    background: #141418;
+    width: 1200px;
+    height: 150px;
+    top: 120px;
+    left: 8%;
+    box-shadow: 0px 5px 20px black;
+ 
+}
+.title{
+    position: absolute;
+    top: 210px;
+    left: -330px;
+    width: 100px;
+}
+
+.body1{
+    position: absolute;
+    left: 330px;
+    top: 210px;
+    width: 100px;
+    
+}
+
+.btnn{
+    position: absolute;
+    top: 280px;
+    left:-50px;
+    width: 360px;
+
+}
+
+.res{
+    position: absolute;
+    top: 480px;
+    width: 100vh;
+    left: -250px;
+}
+
+.txt{
+    position: absolute;
+    top: 425px;
+    left: 0;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0px 2px 2px red;
+    font-size: 30px;
+}
+.res p{
+    color: white;
+    text-shadow: 0px 1px 1px red;
+
+}
